@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sample</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Genshin Impact Simulator</h1>
+  <p>Quick Simulation:</p>
+  <p># of Gambles: <span id="pull-count">0</span></p>
+  <p># of PrimoGems: <span id="gem-count">0</span></p>
+  <p>Cost: <span>$</span><span id="money-count">0</span><span> USD (not including tax)</span></p>
+
+  <h2>Gambles</h2>
+
+
+  <p>Gambles Per Button: <input type="number" id="pull-get" value="1"></p>
+
+
+  <button id="getWanderPulls", value="1">Wanderlust Invocation</button>
+  <button id="getEpitomePulls", value="2">Epitome Invocation</button>
+  <button id="getFarewellPulls", value="3">Farewell of Snezhnaya</button>
+  <button id="getBeginnerPulls", value="4">Beginner’s Wish</button>
+
+  <p id="rarity-get"></p>
+
+  <p id="item-list" class="pullBox"></p>
+
+  <!-- Load JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
